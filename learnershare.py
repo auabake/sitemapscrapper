@@ -25,6 +25,7 @@ for i in main_sitemap.find_all('loc'):
 post_links = all_links[0:2]
 # print(post_links)
 
+
 all_data = []
 for url in post_links:
     print(url)
